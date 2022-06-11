@@ -14,7 +14,6 @@ html, body {
 }
 
  
-
 .circle{
     width: 35px;
     height: 35px;
@@ -26,21 +25,19 @@ html, body {
     color: white;
 }
 
-
 .group{
     display: flex;
     align-items: center;
     width: 427px;
     height: 63px;
-
-    
 }
 
 .box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin: 0 auto;
     margin-top: 10px;
-    
-    
 }
 
 .text p{
@@ -56,22 +53,24 @@ html, body {
     padding: 15px 690px 15px 15px;
 }
 
-form{
-    position: absolute;
-    right: 25%;
-    margin-top: 10px;
-    
-    
+form {
+    margin-top: 10px; 
 }
 
 
- input{
+.search-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 37px;
+}
+
+.search-form__input {
     position: relative;
-    width: 784px;
+    width: 55%;
     height: 54px;
     border-radius: 7px;
     color: #000;
-    font-weight: bold;
 }
 
 .d2{
@@ -88,27 +87,33 @@ form{
 /* images */
 section{
     box-sizing: border-box;
-    padding: 80px;
+    padding: 40px 0;
     margin-right: 25px;
     
 }
 
 .images{
    display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   margin: 30px;
-   width: 320px;
-   height: 114px;
-
 }
 
-.col-3{
-   width: 114px;
-   height: 164px;
+.col-3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
    background-color: #e8f4ff;
    margin-right: 20px;
    border-radius: 7px;
+   width: 114px;
+   height: 114px;
+}
+
+.col-3 img {
+    margin-bottom: 9px;
+}
+
+.col-3 p {
+    margin: 0;
 }
 
 .col-3:hover{
@@ -118,11 +123,10 @@ section{
 
 .col-3 p{
     text-align: center;
+    font-size: 13px;
 }
 
 img{
     width: 60px;
     height: 57px;
-    padding: 27px 16px 27px 40px;
-    
 }
