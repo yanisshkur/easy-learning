@@ -3,10 +3,10 @@
     padding: 0;
 
 }
-
+  /* header start */
 .header{
     background-color: #F9432E;
-    height: 70px;
+    max-height: 70px;
     width: 100%;
 }
 
@@ -48,44 +48,71 @@
     background-color: black;
 }
 
-.menu h1{
-    text-align: center;
+/* header end */
+
+/* menu start */
+  .menu{
+    height: 20vh;
+    background-color: #DF1A03;
     color: #fff;
-    font-size: 52px;
-    padding: 10px;
-}
+    text-align: center;
+  }
 
+  .menu_h1{
+    padding: 25px;
+    font-size: 4em;
+    letter-spacing: 1px;
+  }
 
-.container{
+  
+/* menu */
+
+/* container start */
+ .container{
     background-color: black;
-}
+    box-sizing: border-box;
+    margin: 0;
+    height: 40vh;
+ }  
 
-.container h2{
+ 
+   
+ .smart{
     color: white;
     text-align: center;
-    padding: 30px;
     font-size: 30px;
-}
+    padding: 10px;
+ }
 
-.container__box{
-    position: relative;
-}
+ .container_box{
+    display: flex;
+    align-items: center;
+ }
 
-.container__box .box{
-    margin-right: 30px;
-    background-color: white;
-    padding: 10px 10px;
-    border-radius: 10%;
-}
+ 
+
+ .box_h3{
+    color: white;
+    font-size: 22px;
+    padding: 10px 35%;
+    letter-spacing: 1px;
+    
+ }
 
 
-img{
-    width: 100px;
-    border-radius: 50%;
-}
+  .images{
+    width: 20%;
+    min-height: 20%;
+    padding: 0 30%;
+  }
+/* container end */
 
+
+
+/* content start */
 .content{
     background-color: green;
+    height: 90vh;
 }
 
 .content h2{
@@ -103,14 +130,16 @@ img{
 }
 
 .content__box .box{
-    width: 130px;
+    width: 80%;
+    height: 50vh;
     background: white;
     padding: 20px 20px;
 }
 
-.content__box .image{
-    border-radius: 90%;
-    width: 120px;
+ .image{
+    max-width: 100%;
+    min-height: 70%;
+    border-radius: 55%;
     border: 3px solid green;
 }
 
@@ -137,7 +166,8 @@ button:hover{
     color: white;
     cursor: pointer;
 }
-
+ 
+/* content end */
 
 .footer{
     background-color: black;
@@ -152,5 +182,14 @@ button:hover{
 
 
 @media screen and (min-width: 400px) and (max-width: 500px) {
-    
+       
+      .logo{
+        
+      }
+      
+      
+    .header ul{
+        display: block;
+        
+    }
 }
