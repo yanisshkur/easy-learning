@@ -1,3 +1,4 @@
+/* Стили для всего, что не относится к медиа запросам */
 html, body {
     height: 100%;
 }
@@ -95,6 +96,9 @@ section{
    display: flex;
    padding: 0 40px 0 40px;
    justify-content: center;
+   max-width: 400px;
+   overflow-y: hidden;
+   oveflow-x: scroll;
 }
 .col-3 {
    display: flex;
@@ -140,7 +144,6 @@ img{
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 114px 114px;
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     justify-content: center;
@@ -262,13 +265,11 @@ footer{
     color: #0187fc;
 }
 
-
-
 button{
     width: 155px;
     height: 30px;
     border-radius: 7px;
-    padding: 10px 20px 10px 20xp ; 
+    padding: 10px 20px 10px 20xp; 
     background-color: #0187fc;
     border: 0;
     font-size: 16px;
@@ -283,4 +284,10 @@ button{
 .footer_pp:hover{
     text-decoration: underline;
     color: #0187fc
+}
+
+@media screen and (min-width: 660px) and (max-width: 960px) {
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
