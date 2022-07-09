@@ -12,4 +12,5 @@ Cделать адаптив
 
 
 Прочитать чем отличаются jpg,png,svg,webp между картинками.
-Прочитать про BEM. Подходы к написанию css. Различие между mobille-first и desktop.
+Прочитать про BEM(https://ru.bem.info/methodology/quick-start/). 
+Прочитать про подходы к написанию css. Различие между mobile-first и desktop first. (https://esputnik.com/blog/mobile-first-design-pri-sozdanii-sajtov-chto-oznachaet-i-pochemu-eto-tak-aktualno)
