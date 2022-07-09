@@ -1,0 +1,15 @@
+Поправить все ошибки
+	Поменять верстку с плюсиком на иконку
+		
+Подлючить шрифты через @font-face
+  https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp
+  https://developer.mozilla.org/ru/docs/Web/CSS/@font-face (дополнительно)
+
+Cделать адаптив
+	<660px - Mobile
+	660px-960px = Tablet(Планшеты)
+	960px+ = Desktop(Настольные)
+
+
+Прочитать чем отличаются jpg,png,svg,webp между картинками.
+Прочитать про BEM. Подходы к написанию css. Различие между mobille-first и desktop.

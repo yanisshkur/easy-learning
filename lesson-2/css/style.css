@@ -1,0 +1,293 @@
+/* Стили для всего, что не относится к медиа запросам */
+html, body {
+    height: 100%;
+}
+
+.page {
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+ 
+.circle{
+    width: 35px;
+    height: 35px;
+    background: #FC4483;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    width: 427px;
+    height: 63px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.text p{
+    text-align: center;
+    font-size: 14px;
+    
+} /* header end */
+
+/* form */
+
+.content{
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+
+
+.content__form{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.content__input{
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.content__form-select {
+    position: absolute;
+    width: 100%;
+    top: 289px;
+    left: 229px;
+}
+
+.content__form-select-item {
+    background: #F9FCFF;
+    padding: 16.5px 25px 16.5px 15px;
+    font-size: 16px;
+    border: 1px solid #423A3A;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    width: 69%;
+}
+
+
+/* images */
+section{
+    box-sizing: border-box;
+    padding: 40px 0;
+    margin-right: 25px;
+        
+}
+
+.images{
+   display: flex;
+   padding: 0 40px 0 40px;
+   justify-content: center;
+   max-width: 400px;
+   overflow-y: hidden;
+   oveflow-x: scroll;
+}
+.col-3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #e8f4ff;
+   margin-right: 20px;
+   border-radius: 7px;
+   width: 114px;
+   height: 114px;
+}
+
+.col-3 img {
+    margin-bottom: 9px;
+}
+
+.col-3 p {
+    margin: 0;
+}
+
+.col-3:hover{
+   background-color: #0187fc;
+   color: white;
+}
+
+.col-3 p{
+    text-align: center;
+    font-size: 13px;
+}
+
+img{
+    width: 60px;
+    height: 57px;
+}
+
+/*grid */
+.container{
+    box-sizing: border-box;
+    
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+}    
+
+.boxes{
+    background-color: #e8f4ff;
+    padding: 0 20px;
+    border-radius: 7px;
+}
+
+
+ /* new project */
+ .wrapper__box{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .box__h3{
+    font-size: 15px;
+    color: #445666;
+}
+
+.box__p{
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #666666;
+}
+
+.box__s{
+    padding: 17px 0;
+    font-size: 12px;
+    color: #666666;
+}
+
+.boxes__ppp{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.wrapper__pp{
+    margin: 0 16px;
+    padding: 0;
+    text-align: right;
+    font-size: 12px;
+    color: #666666;
+}
+
+.wrapper__box__2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.around{
+    width: 19px;
+    height: 19px;
+    border: 1px solid #0187fc;
+    border-radius: 50%;
+}
+
+.around__span{
+    text-align: center;
+    color: #0187FC;
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* footer*/
+footer{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footer_box{
+    height: 50%;
+    text-align: center;
+    padding: 17px 0;
+}
+
+.footer__p{
+    color: #0187fc;
+    font-size: 16px;
+}
+
+.footer__p:hover{
+    text-decoration: underline;
+    color: #0187fc;
+}
+
+.footer__boxes{
+    margin: 20px auto;
+    border: 1px solid rgba(68, 86, 102, 0.45);
+    width: 423px;
+    height: 64px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.footer__text{
+  padding: 0 10px;
+  color: #423a3a;
+  font-size: 16px;
+  font-weight: 400;    
+}
+
+.footer__boxes:hover{
+    text-decoration: underline;
+    color: #0187fc 
+}
+
+.color{
+    color: #0187fc;
+}
+
+button{
+    width: 155px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20xp; 
+    background-color: #0187fc;
+    border: 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer_pp{
+    font-size: 14px;
+    color: #666666;
+}
+
+.footer_pp:hover{
+    text-decoration: underline;
+    color: #0187fc
+}
+
+@media screen and (min-width: 660px) and (max-width: 960px) {
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

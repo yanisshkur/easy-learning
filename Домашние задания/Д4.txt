@@ -1,0 +1,13 @@
+Схема ветвлений git
+   https://www.figma.com/file/JhdNsavZn7PvImWvJKvZWD/Untitled?node-id=0%3A1
+
+Сделать текст с троеточиями css -
+Выровнить блок выбора (задать родительскому элемнту position: relative) -
+Убрать внутри карточек position: absolute и сделать flex'aми +
+Убрать postion: absolute, где это возможно +
+Убрать выскоту в vh у блоков. +
+
+Центрировать footer flex'ом. +
+
+Почитать про медиа запросы. @media queries
+Прочитать про overflow (http://htmlbook.ru/css/overflow)
