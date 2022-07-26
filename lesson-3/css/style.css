@@ -58,7 +58,7 @@ html, body {
 
 
 
-.circle__text-p{
+.group__box__p{
     font-family: 'Roboto Serif', serif;
     font-size: 14px;
     font-weight: 400;
@@ -178,12 +178,14 @@ section{
 
 .grid__text {
     display: flex;
-    justify-content: space-between;
-    padding: 0 20px 0 20px;
+    justify-content: space-around;
+    margin-bottom: 10px;
 }
 
 .grid__text-1 {
     width: 8em;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 .grid__text-p {
@@ -221,14 +223,13 @@ section{
 
 .grid__text-icon {
     display: flex;
-    justify-content: space-betwwen;
-    margin-top: 10px;
-    padding: 0 20px 0 20px;
-
+    justify-content: space-around;
 }
 
 .grid__text-icon-1 {
     width: 11em;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
 }
 
 .text__icon-p {
@@ -238,21 +239,8 @@ section{
     color: #666666;
 }
 
-.grid__icon {
-    margin-left: 105px;
-    position: relative;
-}
-
-.icon-1 {
-    position: absolute;
-    bottom: 9px;
-    left: 4px;
-}
-
-.icon-2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.icon__img {
+    width: 19px;
 }
 
 
@@ -329,72 +317,10 @@ footer{
     color: #666666;
 }
 
-/* Desktop */
-@media screen and (min-width: 660px) and (max-width: 1400px) {
-    .content__form {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .content__form-select {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .section__content {
-        max-width: 100%;
-        overflow-y: auto;
-        margin-top: 10px;
-     }
-
-     .wrapper {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
 
 
-/* Tablet */
 @media screen and (min-width: 660px) and (max-width: 960px) {
-    .content__form {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .content__form-select {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-    
-    .section__content {
-        max-width: 100%;
-        overflow-y: auto;
-        margin-top: 10px;
-     }
-
     .wrapper {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-/* Mobile */
-@media script and (min-width: 320px) and (max-width: 660px) {
-    .content__form {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .content__form-select {
-        max-width: 100%;
-        margin: 0 auto;
-    }
-
-    .section__content {
-       max-width: 100%;
-       overflow-y: auto;
-       margin-top: 10px;
-    }
-
-    .wrapper {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
